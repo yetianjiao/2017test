@@ -1,4 +1,4 @@
-package com.mybatis.pojo;
+package com.test.model;
 
 import java.util.List;
 
