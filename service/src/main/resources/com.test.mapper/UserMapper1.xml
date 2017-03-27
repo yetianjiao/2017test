@@ -6,9 +6,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <!-- namespace命名空间，作用就是对sql进行分类化管理，理解sql隔离 
 注意：使用mapper代理方法开发，namespace有特殊重要的作用，namespace等于mapper接口地址
 -->
-<mapper namespace="com.test.mapper.UserMapper">
+<mapper namespace="com.test.mapper.UserMapper1">
 
-	<select id="findUserByName" parameterType="java.lang.String" resultType="com.test.model.User">
+	<select id="findUserByName" parameterType="java.lang.String" resultType="com.test.model.User1">
 		SELECT * FROM USER WHERE username LIKE '%${value}%'
 	</select>
 	

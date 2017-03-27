@@ -1,10 +1,8 @@
 package com.test.mapper;
 
-import com.test.model.User;
-import com.test.model.UserCustom;
-import com.test.model.UserQueryVo;
-
 import java.util.List;
+
+import com.test.model.User1;
 
 /**
  * 
@@ -15,10 +13,10 @@ import java.util.List;
  * @date	2015-4-22下午2:45:12
  * @version 1.0
  */
-public interface UserMapper {
+public interface UserMapper1 {
 	
 	//根据用户名列查询用户列表
-	public List<User> findUserByName(String name)throws Exception;
+	public List<User1> findUserByName(String name)throws Exception;
 	
 
 	

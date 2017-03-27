@@ -19,6 +19,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</environments>
 	<!-- 加载 映射文件 -->
 	<mappers>
-		<mapper resource="com.test.mapper/UserMapper.xml"></mapper>
+		<mapper resource="com.test.mapper/UserMapper1.xml"></mapper>
 	</mappers>
 </configuration>
