@@ -37,7 +37,4 @@
     <property name="resource" value="/WEB-INF/log4j.xml"/>
   </bean>
 
-  <!-- Activate Avalon Bridge -->
-  <avalon:bridge/>
-
 </beans>
