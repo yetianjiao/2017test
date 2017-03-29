@@ -10,6 +10,7 @@
         <module>web</module>
         <module>service</module>
     <module>mybatistest</module>
+    <module>mvcmodel1</module>
   </modules>
 
     <properties>
