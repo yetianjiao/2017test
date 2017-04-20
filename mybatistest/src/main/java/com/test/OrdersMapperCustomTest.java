@@ -135,7 +135,6 @@ public class OrdersMapperCustomTest {
 	public void testCache2() throws Exception {
 		SqlSession sqlSession1 = sqlSessionFactory.openSession();
 		SqlSession sqlSession2 = sqlSessionFactory.openSession();
-		SqlSession sqlSession3 = sqlSessionFactory.openSession();
 		// 创建代理对象
 		UserMapper1 userMapper1 = sqlSession1.getMapper(UserMapper1.class);
 		// 第一次发起请求，查询id为1的用户

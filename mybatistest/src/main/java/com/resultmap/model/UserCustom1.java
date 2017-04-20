@@ -10,6 +10,11 @@ package com.resultmap.model;
  * @version 1.0
  */
 public class UserCustom1 extends User1{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	
 	//可以扩展用户的信息
 

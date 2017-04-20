@@ -15,9 +15,9 @@ public class Test1Controller implements Controller {
 
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		ModelAndView mv=new ModelAndView();
-		mv.setViewName("");
+		mv.setViewName("/WEB-INF/jsp/NewFile.jsp");
 		
-		return null;
+		return mv;
 	}
 
 }

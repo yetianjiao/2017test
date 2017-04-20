@@ -15,6 +15,10 @@ import java.util.List;
  */
 public class User1 implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	//属性名和数据库表的字段对应
 	private int id;
 	private String username;// 用户姓名
