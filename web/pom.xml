@@ -39,7 +39,7 @@
 						</resource>
 					</webResources>
 				</configuration>
-			</plugin>
+			</plugin> 
 		</plugins>
 		<defaultGoal>compile</defaultGoal>
 	</build>
